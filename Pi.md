@@ -53,7 +53,7 @@ enable_auth=true
 username=pi
 password=yournewpassword" > ~/.config/wayvnc/config
 ```
-
+│   │   ├── `cat ~/.config/wayvnc/config`
 │   ├──
 │   ├──
 │   ├──
