@@ -1,13 +1,11 @@
-# How to connect a Pi to a Android Mobile using USB Tethering
----
-<br>
-
-- ### Raspberry Pi 4  
-- ### Raspberry Pi OS (64-bit)
-- ### SanDisk 30 GB
+## How to connect a Pi to a Android Mobile using USB Tethering
 
 <br>
----
+
+- Raspberry Pi 4  
+- Raspberry Pi OS (64-bit)
+- SanDisk 30 GB
+  
 <br>
 
 ```
