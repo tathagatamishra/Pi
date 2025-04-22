@@ -60,3 +60,6 @@ password=yournewpassword" > ~/.config/wayvnc/config
 │
 │
 └── RVNC Viewer
+
+
+Man... I gev up
