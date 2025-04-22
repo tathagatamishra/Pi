@@ -1,5 +1,6 @@
 Raspberry Pi 4 + Raspberry Pi OS (64-bit) + SanDisk 30 GB
 
+```
 Raspberry Pi Imager
 │
 ├── Raspberry Pi Device
@@ -47,12 +48,12 @@ Android Mobile
 │   ├── Set VNC username password
 │   │   ├── `mkdir -p ~/.config/wayvnc`
 
-```
+
 echo "address=0.0.0.0
 enable_auth=true
 username=pi
 password=yournewpassword" > ~/.config/wayvnc/config
-```
+
 │   │   ├── `cat ~/.config/wayvnc/config`
 │   ├──
 │   ├──
@@ -60,6 +61,6 @@ password=yournewpassword" > ~/.config/wayvnc/config
 │
 │
 └── RVNC Viewer
+```
 
-
-Man... I gev up
+Nah man... I gev up
