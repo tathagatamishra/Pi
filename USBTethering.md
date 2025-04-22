@@ -70,7 +70,6 @@ Android Mobile
 
 ```
 
-Raspberry Pi will change the 2nd ip 
 ## How to Reconnect again
 
 ```
@@ -88,10 +87,11 @@ Reconnect Pi
 │    │     │
 │    └── Turn on USB Tethering
 │          │
-│          └── 192.168.xx.xx   192.168.xx.xx
-│                               └── copy 2nd ip
+│          └── hostname -I
+│              └── 192.168.xx.xx   192.168.xx.xx
+│                                   └── copy 2nd ip
 └── Open VNC
-      └── Replace connection address with 2nd ip
+      └── Replace connection address with new 2nd ip
             └── connect
                 │
                 ├── username: pi
