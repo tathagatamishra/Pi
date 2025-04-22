@@ -40,18 +40,18 @@ Android Mobile
 │   └── Copy Pi ip
 │
 ├── Termux
-│   ├── `pkg install openssh`
+│   ├── pkg install openssh
 │   │
-│   ├── `ssh-keygen -R 192.168.117.125`
+│   ├── ssh-keygen -R 192.168.117.125
 │   │   └── to remove the old key from your known_hosts file in Termux
 │   │
-│   ├── `ssh pi@192.168.xx.xx`
+│   ├── ssh pi@192.168.xx.xx
 │   │   └── yes
 │   │
-│   ├── `ssh pi@192.168.xx.xx`
+│   ├── ssh pi@192.168.xx.xx
 │   │   └── password
 │   │
-│   ├── `sudo raspi-config`
+│   ├── sudo raspi-config
 │   │   └── Interface Options
 │   │       └── VNC
 │   │           └── Yes
@@ -69,3 +69,33 @@ Android Mobile
                 └── password: raspberry
 
 ```
+
+Raspberry Pi will change the 2nd ip 
+## How to Reconnect again
+
+```
+Reconnect Pi
+│
+├── Disable USB Tethering
+│
+├── Auto connect Pi to mobile hotspot
+│
+├── Open Termux
+│          ├── ssh pi@192.168.xx.xx
+│          │   └── password
+│          │
+├── connect Pi to Mobile with USB
+│    │     │
+│    └── Turn on USB Tethering
+│          │
+│          └── 192.168.xx.xx   192.168.xx.xx
+│                               └── copy 2nd ip
+└── Open VNC
+      └── Replace connection address with 2nd ip
+            └── connect
+                │
+                ├── username: pi
+                └── password: raspberry
+```
+
+EZ AS THAT !!
